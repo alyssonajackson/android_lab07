@@ -7,4 +7,6 @@
   <item android:id="@+id/menu_settings"
   		  android:icon="@android:drawable/ic_menu_preferences"
   		  android:title="@string/menu_settings" />
+  <item android:id="@+id/menu_sobre"
+      android:title="@string/menu_sobre"></item>
 </menu>
