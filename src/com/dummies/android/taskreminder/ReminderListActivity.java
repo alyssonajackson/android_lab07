@@ -96,6 +96,9 @@ public class ReminderListActivity extends ListActivity {
 			mDbHelper.deleteReminder(info.id);
 			fillData();
 			return true;
+		case R.id.menu_sobre2:
+			showAuthor();
+			return true;
 		}
 		return super.onContextItemSelected(item);
 	}
